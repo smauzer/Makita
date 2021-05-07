@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel = "icon" href ="/képek/lgoo1.png" type = "image/x-icon">
     <title>Makita Magyarország</title>
 </head>
 <body>
@@ -27,6 +28,9 @@
                 </li>
               </ul>
               <ul class="navbar-nav">
+                <li>
+                  <button type="button" class="btn btn-dark font-weight-bolder" data-toggle="modal" data-target="#elerhetoseg">Elérhetőségek</button>
+                </li>
                 <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle text-white font-weight-bolder" href=".dropdown-menu" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Segítség
@@ -145,6 +149,42 @@
             </div>
         </div>
       </nav>
+
+      <div class="modal fade" id="elerhetoseg" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="elerhetoseg" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="elerhetoseg">Elérhetőségek:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <ul class="list-group-group col">
+                  <li class="list-group-item font-weight-bolder text-info text-left">
+                    E-mail:
+                  </li>
+                  <li class="list-group-item font-weight-bolder text-info text-left">
+                    Telefonszám:
+                  </li>
+                </ul>
+                <ul class="list-group-group col">
+                  <li class="list-group-item text-center" title="E-mail">
+                    makita.magyarorszag@makita.eu
+                  </li>
+                  <li class="list-group-item text-center" title="Telefonszám">
+                    06 30 347 813 / 06 70 534 765
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Bezárás</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
